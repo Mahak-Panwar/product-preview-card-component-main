@@ -17,8 +17,8 @@ It's the solution code of recipe page main challenge.I built this solution with 
 
 ### Links
 
-- Solution URL: https://github.com/Mahak-Panwar/recipe-page-main.git
-- Live Site URL: https://mahak-panwar.github.io/recipe-page-main/
+- Solution URL:https://github.com/Mahak-Panwar/product-preview-card-component-main.git
+- Live Site URL: https://mahak-panwar.github.io/product-preview-card-component-main/
 
 
 ## My Process
