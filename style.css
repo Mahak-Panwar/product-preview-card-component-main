@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: bisque;
+    background-color: hsl(30, 38%, 92%);
     height: 40em;
     color: hsl(228, 12%, 48%);
     font-family: system-ui;
