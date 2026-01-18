@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: bisque;
+    height: 40em;
+    color: hsl(228, 12%, 48%);
+    font-family: system-ui;
+}
+
+.container{
+    display: flex;
+    margin: 15px;
+ border-radius: 1rem;
+    background-color: white;
+    height: auto;
+    width: 39.9vw;
+    
+ 
+}
+.img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.img img{
+     width: 100%;
+  height: 100%;
+  object-fit: cover;   
+  display: block;
+  border-radius: 8px;
+
+}
+
+
+.description{
+    padding: 20px;
+    margin-top: 0px;
+    
+}
+
+.description span{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: -22px;
+}
+
+.description span p{
+    text-decoration: line-through;
+}
+
+.description p:first-child{
+    letter-spacing: 0.3em;
+}
+
+h1{
+    color: black;
+    font-family: serif;
+    font-weight: 900;
+}
+
+.price h1{
+    color:green;
+    
+}
+
+.description button{
+    width: 100%;
+    background-color: hsl(158, 36%, 37%) ;
+    color: white;
+    font-weight: bolder;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border-color: hsl(158, 36%, 37%) ;
+    
+}
+
+button:hover{
+    background-color: hsl(158, 42%, 18%)
+ ;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+.container {
+    display: flex;
+flex-direction: column;
+width: 89vw;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+.container {
+    display: flex;
+flex-direction: column;
+
+}
+.description{
+    margin: 0;
+}
+}
